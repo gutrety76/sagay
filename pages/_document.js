@@ -5,7 +5,7 @@ export default function Document() {
         <Html lang="ru">
             <Head >
                 <meta name="description"
-                      content="Семейный ресторан, объединяющий Японскую
+                      content="Сагай Палермо. Семейный ресторан, объединяющий Японскую
                        и Итальянскую кухню, в городе Данилов."/>
                 <link rel="icon" href="/favicon.png"/>
 
