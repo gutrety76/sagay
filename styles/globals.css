@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+
+}
+*:focus {
+  box-shadow: none !important;
+}
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+}
+.embla__next{
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+.embla__slide {
+  flex: 0 0 100%;
+  margin-right: 10px;
+  margin-left: 10px;
+
+}
+@media(min-width: 720px) {
+  .embla__slide {
+    flex: 0 0 50%;
+
+
+  }}
+@media(min-width: 1024px) {
+  .embla__slide {
+    flex: 0 0 20%;
+
+
+  }}
+
+/*}*/
+/*@media (max-width: 1024px) {*/
+/*  .embla__slide {*/
+/*    flex: 0 0 60%;*/
+/*    margin-right: 5px;*/
+/*    margin-left: 5px;*/
+/*  }*/
+/*}*/
+*[data-focus] {
+  box-shadow: none !important;
+}
+.swiper-pagination-bullet-active {
+  background-color: #FFD2B0 !important;
+}
+
+
+* {
+  box-sizing: border-box;
+
+/*border: 1px red solid;*/
+}
