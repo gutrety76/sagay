@@ -47,141 +47,141 @@ export default function Navbar() {
                                 <PopoverContent p={0} m={0}>
 
                                     <PopoverBody p={0} m={0}>
-                                        <ul className=" grid text-center h-[310px] w-[350px] select-none grid-cols-2 mt-3 overflow-y-scroll  items-center place-items-center shadow bg-white border-none  ">
-                                            <li className="bg-white p-3 ">
+                                        <ul className=" grid text-center font-[400] h-[310px] w-[350px] select-none grid-cols-2 mt-3 overflow-y-scroll  items-center place-items-center shadow bg-white border-none  ">
+                                            <li className="bg-white px-4 py-1  ">
                                                 <Link to="BurgersMenu" spy={true} smooth={true} offset={-80}
                                                       duration={500}>
                                                     <span
                                                         className="text-[18px] cursor-pointer hover:underline">Бургеры</span>
                                                 </Link>
                                             </li>
-                                            <li className="bg-white p-3 ">
+                                            <li className="bg-white px-4 leading-4 py-1  ">
                                                 <Link to="RollsMenu" spy={true} smooth={true} offset={-80}
                                                       duration={500}>
                                                     <span
                                                         className="text-[18px] cursor-pointer hover:underline">Суши и роллы</span>
                                                 </Link>
                                             </li>
-                                            <li className="bg-white p-3 ">
+                                            <li className="bg-white px-4 py-1  ">
                                                 <Link to="SalatMenu" spy={true} smooth={true} offset={-80}
                                                       duration={500}>
                                                     <span
                                                         className="text-[18px] cursor-pointer hover:underline">Салаты</span>
                                                 </Link>
                                             </li>
-                                            <li className="bg-white p-3 ">
+                                            <li className="bg-white px-4 py-1  ">
                                                 <Link to="FionceMenu" spy={true} smooth={true} offset={-80}
                                                       duration={500}>
                                                     <span
                                                         className="text-[18px] cursor-pointer hover:underline">Закуски</span>
                                                 </Link>
                                             </li>
-                                            <li className="bg-white p-3 ">
+                                            <li className="bg-white px-4 py-1  ">
                                                 <Link to="SoapMenu" spy={true} smooth={true} offset={-80}
                                                       duration={500}>
                                                     <span
                                                         className="text-[18px] cursor-pointer hover:underline">Супы</span>
                                                 </Link>
                                             </li>
-                                            <li className="bg-white p-3 ">
+                                            <li className="bg-white px-4 py-1  ">
                                                 <Link to="HotMenu" spy={true} smooth={true} offset={-80}
                                                       duration={500}>
                                                     <span
                                                         className="text-[18px] cursor-pointer hover:underline">Горячее</span>
                                                 </Link>
                                             </li>
-                                            <li className="bg-white p-3 ">
+                                            <li className="bg-white px-4 py-1  ">
                                                 <Link to="KidsMenu" spy={true} smooth={true} offset={-80}
                                                       duration={500}>
                                                     <span
                                                         className="text-[18px] cursor-pointer hover:underline">Детское меню</span>
                                                 </Link>
                                             </li>
-                                            <li className="bg-white p-3 ">
+                                            <li className="bg-white px-4 py-1  ">
                                                 <Link to="PizzaMenu" spy={true} smooth={true} offset={-80}
                                                       duration={500}>
                                                     <span
                                                         className="text-[18px] cursor-pointer hover:underline">Пиццы</span>
                                                 </Link>
                                             </li>
-                                            <li className="bg-white p-3 ">
+                                            <li className="bg-white px-4 py-1  ">
                                                 <Link to="DesetMenu" spy={true} smooth={true} offset={-80}
                                                       duration={500}>
                                                     <span
                                                         className="text-[18px] cursor-pointer hover:underline">Десерты</span>
                                                 </Link>
                                             </li>
-                                            <li className="bg-white p-3 ">
+                                            <li className="bg-white px-4 py-1  ">
                                                 <Link to="CofeMenu" spy={true} smooth={true} offset={-80}
                                                       duration={500}>
                                                     <span
                                                         className="text-[18px] cursor-pointer hover:underline">Кофе</span>
                                                 </Link>
                                             </li>
-                                            <li className="bg-white p-3 ">
+                                            <li className="bg-white px-4  leading-4 py-1  ">
                                                 <Link to="DrinksOnCofeMenu" spy={true} smooth={true} offset={-80}
                                                       duration={500}>
                                                     <span
                                                         className="text-[18px] cursor-pointer hover:underline">Напитки на основе кофе</span>
                                                 </Link>
                                             </li>
-                                            <li className="bg-white p-3 ">
+                                            <li className="bg-white px-4 py-1  ">
                                                 <Link to="TeaMenu" spy={true} smooth={true} offset={-80}
                                                       duration={500}>
                                                     <span
                                                         className="text-[18px] cursor-pointer hover:underline">Чай</span>
                                                 </Link>
                                             </li>
-                                            <li className="bg-white p-3 ">
+                                            <li className="bg-white px-4 leading-4 py-1  ">
                                                 <Link to="FreshJuicyMenu" spy={true} smooth={true} offset={-80}
                                                       duration={500}>
                                                     <span
                                                         className="text-[18px] cursor-pointer hover:underline">Свежевыжатые соки</span>
                                                 </Link>
                                             </li>
-                                            <li className="bg-white p-3 ">
+                                            <li className="bg-white px-4 py-1  ">
                                                 <Link to="JuicyMenu" spy={true} smooth={true} offset={-80}
                                                       duration={500}>
                                                     <span
                                                         className="text-[18px] cursor-pointer hover:underline">Соки</span>
                                                 </Link>
                                             </li>
-                                            <li className="bg-white p-3 ">
+                                            <li className="bg-white px-4 leading-4 py-1  ">
                                                 <Link to="FizzyMenu" spy={true} smooth={true} offset={-80}
                                                       duration={500}>
                                                     <span
                                                         className="text-[18px] cursor-pointer hover:underline">Газированные напитки</span>
                                                 </Link>
                                             </li>
-                                            <li className="bg-white p-3 ">
+                                            <li className="bg-white px-4 leading-4 py-1  ">
                                                 <Link to="NonAlcoholMenu" spy={true} smooth={true} offset={-80}
                                                       duration={500}>
                                                     <span
                                                         className="text-[18px] cursor-pointer hover:underline">Фирменные безалкогольные коктейли</span>
                                                 </Link>
                                             </li>
-                                            <li className="bg-white p-3 ">
+                                            <li className="bg-white px-4 py-1  ">
                                                 <Link to="LemonadesMenu" spy={true} smooth={true} offset={-80}
                                                       duration={500}>
                                                     <span
                                                         className="text-[18px] cursor-pointer hover:underline">Лимонады</span>
                                                 </Link>
                                             </li>
-                                            <li className="bg-white p-3 ">
+                                            <li className="bg-white px-4 leading-4 py-1  ">
                                                 <Link to="MilkShakeMenu" spy={true} smooth={true} offset={-80}
                                                       duration={500}>
                                                     <span
                                                         className="text-[18px] cursor-pointer hover:underline">Молочные шейки</span>
                                                 </Link>
                                             </li>
-                                            <li className="bg-white p-3 ">
+                                            <li className="bg-white px-4 py-1  ">
                                                 <Link to="SmizyMenu" spy={true} smooth={true} offset={-80}
                                                       duration={500}>
                                                     <span
                                                         className="text-[18px] cursor-pointer hover:underline">Смузи</span>
                                                 </Link>
                                             </li>
-                                            <li className="bg-white p-3 ">
+                                            <li className="bg-white px-4 py-1  ">
                                                 <Link to="IceCreamMenu" spy={true} smooth={true} offset={-80}
                                                       duration={500}>
                                                     <span

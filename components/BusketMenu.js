@@ -456,7 +456,7 @@ export default function BusketMenu({}) {
                     </div>
                 </form>
             </div>
-
+            <div className="opacity-60 font-regular">* Внешний вид товара может отличаться от того, что на картинке. Состав не может.</div>
             <div
                 className={visible ? "hidden" : "md:hidden flex items-center justify-center sticky bottom-0 bg-white w-full py-4"}>
                 <div className="flex justify-center  items-center">

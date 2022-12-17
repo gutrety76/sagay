@@ -55,9 +55,7 @@ function MyApp({Component, pageProps}) {
                         </div>
 
                         <Component {...pageProps} ></Component>
-                        <footer className="display md:hidden">
-                            <Footer/>
-                        </footer>
+
                     </Provider>
                 </ChakraProvider>
           </>
