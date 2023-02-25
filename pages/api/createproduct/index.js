@@ -4,7 +4,7 @@
 
 
 export default async function handler(req, res) {
-
+    console.log(123)
     const product = await prisma.Product.create({
         data: {
             title: req.body.title,

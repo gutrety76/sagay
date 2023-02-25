@@ -14,7 +14,7 @@ import {
 
 
 
-export default function MenuTemplateForNonFilterterd( {typeForProducts, nameForMenu}) {
+export default function MenuTemplateForNonFilterterd( {typeForProducts,width, height, nameForMenu}) {
     const [content, setContent] = useState([])
     const dispatch = useDispatch()
     const {filters} = useSelector(state => state.busketSlice)
@@ -109,7 +109,7 @@ export default function MenuTemplateForNonFilterterd( {typeForProducts, nameForM
 
             {content !== undefined && content.map((content, index) =>
 
-                (<ItemCart id={content.id} description={content.description} key={index} img={content.img}
+                (<ItemCart id={content.id} description={content.description} height={height} width={width} key={index} img={content.img}
                            price={content.price} title={content.title} weight={content.weight}/>))}
 
 

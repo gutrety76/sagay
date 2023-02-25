@@ -5,16 +5,29 @@ const initialState = {
     typeMenuu1: 0,
     typeMenuu2: 0,
     phoneChecker: false,
-    promoChecker: ""
+    promoChecker: "",
+    typeOfSelectedProductsToAdd: [],
+    content: []
 
 }
 const menuSlice = createSlice({
     name: "menu",
     initialState,
     reducers: {
-
+        setContent(state,action){
+            state.content = action.payload
+        },
         setMenuFilter(state,action){
             state.typeMenuu = action.payload
+        },
+        toggleValueInArray(state,action){
+            const index = state.typeOfSelectedProductsToAdd.indexOf(action.payload);
+            if (index === -1) {
+                state.typeOfSelectedProductsToAdd.push(action.payload)
+            } else {
+                state.typeOfSelectedProductsToAdd.splice(index, 1)
+            }
+
         },
         setMenuFilter1(state,action){
             state.typeMenuu1 = action.payload
@@ -30,6 +43,6 @@ const menuSlice = createSlice({
         }
     }
 })
-export const {setMenuFilter, setPhoneCheck, setPromoCheck} = menuSlice.actions
+export const {setMenuFilter, setPhoneCheck,setContent,toggleValueInArray, setPromoCheck} = menuSlice.actions
 
 export default menuSlice.reducer
