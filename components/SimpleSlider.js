@@ -45,6 +45,7 @@ export default function  SimpleSlider() {
                 .then(response => response.json())
                 .then(data => {
                     setContent(data)
+                    console.log(data)
                 });
         }
 

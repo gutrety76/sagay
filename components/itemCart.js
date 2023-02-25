@@ -50,7 +50,7 @@ export default function ItemCart({id, title,price,img,description, weight,width,
 
             </div>
         <div className="absolute top-[-10px] right-2 ">
-            <span className="font-[400] text-[18px] text-[#CBCBCB]">{weight} Г</span>
+            <span className="font-[400] text-[18px] text-[#CBCBCB]">{weight}</span>
         </div>
         <div className="flex flex-col items-center justify-between h-full   pr-2 w-[50%] md:w-full">
             <div className="flex  items-center  leading-9   font-normals justify-start text-center md:text-center font-normal pb-auto sm:text-[32px] text-[24px]"><h4>{title}</h4></div>

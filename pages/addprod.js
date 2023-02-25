@@ -31,7 +31,7 @@ export default function Addprod() {
     const [type, setType] = useState()
 
     function submit(){
-        console.log(name,price,description,link,weight,filterTypes)
+
         fetch('/api/createproduct', {
             method: 'POST',
             headers: {
@@ -42,7 +42,7 @@ export default function Addprod() {
                 price: parseInt(price, 10),
                 description: description,
                 img: link,
-                weight: parseInt(weight, 10),
+                weight: weight,
                 producttype: parseInt(type, 10),
                 filtertypee: filterTypes
             })
@@ -69,9 +69,9 @@ export default function Addprod() {
             <div className="min-h-[70vh] flex flex-col items-center justify-center">
                 <input className="border p-2" onChange={(e)=>{setName(e.target.value)}} value={name} placeholder="Название"/>
                 <input className="border p-2" onChange={(e)=>{setPrice(e.target.value)}}  type="number" value={price} placeholder="Цена"/>
-                <input className="border p-2" onChange={(e)=>{setDescription(e.target.value)}} value={description} placeholder="Описание"/>
+                <textarea className="border p-2" onChange={(e)=>{setDescription(e.target.value)}} value={description} placeholder="Описание"></textarea>
                 <input className="border p-2" onChange={(e)=>{setLink(e.target.value)}} value={link} placeholder="Ссылка на картинку"/>
-                <input className="border p-2" onChange={(e)=>{setWeight(e.target.value)}} type="number" value={weight} placeholder="Вес в граммах"/>
+                <input className="border p-2" onChange={(e)=>{setWeight(e.target.value)}} type="text" value={weight} placeholder="Вес в граммах"/>
                 <input className="border p-2" onChange={(e)=>{setType(e.target.value)}} type="number" value={type} placeholder="Тип продукта"/>
                 <div className="flex flex-col justify-center items-center">
                     Тип продукта

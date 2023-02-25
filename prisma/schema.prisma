@@ -21,7 +21,7 @@ model Product{
     price Int
     img String
     description String
-    weight Int
+    weight String
     type Type @relation(fields: [typeId], references: [id])
     typeId Int
     counterForRelevant Int @default(0)
