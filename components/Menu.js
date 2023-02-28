@@ -127,15 +127,15 @@ export default function Menu() {
                 click={12}
                 text="чай"
                 bgColor="bg-[#FFA36F]"
-              />
+              /> */}
               <CardForPhoneMenu
-                altProp="Гамбургер"
-                imgType="hamburger.png"
+                altProp="Свежевыжатые соки"
+                imgType="https://ik.imagekit.io/rduvru4l4/Свеж_Соки/витамин_с.png?ik-sdk-version=javascript-1.4.3&updatedAt=1677536809659?format=jpeg"
                 click={13}
                 text="Свежевыжатые соки"
                 bgColor="bg-[#4F85B6]"
               />
-              <CardForPhoneMenu
+              {/* <CardForPhoneMenu
                 altProp="Роллы"
                 imgType="rollspng.png"
                 click={14}
@@ -148,36 +148,36 @@ export default function Menu() {
                 click={15}
                 text="Газированные напитки"
                 bgColor="bg-[#91BB5B]"
-              />
+              /> */}
               <CardForPhoneMenu
-                altProp="Закуски"
-                imgType="zakuski.png"
+                altProp="Фирменные безалкогольные напитки"
+                imgType="https://ik.imagekit.io/rduvru4l4/Фирменные_безалко_коктейли/пеликан.png?ik-sdk-version=javascript-1.4.3&updatedAt=1677460675543?format=jpeg"
                 click={16}
                 text="Фирменные безалкогольные напитки"
                 bgColor="bg-[#D27643]"
               />
               <CardForPhoneMenu
-                altProp="Суп"
-                imgType="creamsoup.png"
+                altProp="Лимонады"
+                imgType="https://ik.imagekit.io/rduvru4l4/Лимонады/малиновый_лимонад.png?ik-sdk-version=javascript-1.4.3&updatedAt=1677460726758?format=jpeg"
                 click={17}
                 text="Лимонады"
                 bgColor="bg-[#DBC473]"
               />
               <CardForPhoneMenu
-                altProp="Горячее блюдо"
-                imgType="hotcategory.png"
+                altProp="Молочные шейки"
+                imgType="https://ik.imagekit.io/rduvru4l4/Молочный_шейк/мульти_шейк.png?ik-sdk-version=javascript-1.4.3&updatedAt=1677460755934?format=jpeg"
                 click={18}
                 text="Молочные шейки"
                 bgColor="bg-[#FFA36F]"
               />
               <CardForPhoneMenu
-                altProp="Гамбургер"
-                imgType="hamburger.png"
+                altProp="Смузи"
+                imgType="https://ik.imagekit.io/rduvru4l4/Смузи/бодрая_клюква.png?ik-sdk-version=javascript-1.4.3&updatedAt=1677460776159?format=jpeg"
                 click={19}
                 text="Смузи"
                 bgColor="bg-[#4F85B6]"
               />
-              <CardForPhoneMenu
+              {/* <CardForPhoneMenu
                 altProp="Роллы"
                 imgType="rollspng.png"
                 click={20}
